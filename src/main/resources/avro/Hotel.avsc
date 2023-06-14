@@ -1,0 +1,10 @@
+{
+     "type": "record",
+     "namespace": "com.example.learnkafka",
+     "name": "Hotel",
+     "fields": [
+       { "name": "customer", "type": "string", "doc": "Customer name" },
+       { "name": "hotel", "type": "string", "doc": "Name of hotel", "default": null }
+     ]
+}
+

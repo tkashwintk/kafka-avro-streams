@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "com.example.learnkafka",
+  "name": "FinalItinerary",
+  "fields": [
+    { "name": "customer", "type": "string", "doc": "Customer name" },
+    { "name": "airline", "type": "string", "doc": "Name of airline", "default": null },
+    { "name": "hotel", "type": "string", "doc": "Name of hotel", "default": null }
+  ]
+}
+

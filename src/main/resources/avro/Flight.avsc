@@ -1,0 +1,10 @@
+{
+     "type": "record",
+     "namespace": "com.example.learnkafka",
+     "name": "Flight",
+     "fields": [
+       { "name": "customer", "type": "string", "doc": "Customer name" },
+       { "name": "airline", "type": "string", "doc": "Name of airline", "default": null }
+     ]
+}
+
